@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "3.0.0" %}
 
 package:
   name: xmsmesher
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/Aquaveo/xmsmesher/archive/{{ version }}.tar.gz
-  sha256: 22f1cfc97b75d7323c91a6eea7a7b6b5e86d0d04e70f16097a67711ebf3e0f92
+  sha256: 95fb18da6c7e956b60f541da9f0cd2e54e4681e31c426c21c6e3bbf5623d43ae
 
 build:
   number: 0
-  skip: True  # [not py36]
+  skip: true  # [not py36]
   merge_build_host: true
 
 requirements:
@@ -48,7 +48,7 @@ about:
   home: aquaveo.com
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: "Meshing library for XMS libraries and products"
+  summary: Meshing library for XMS libraries and products
   doc_url: https://aquaveo.github.io/xmsmesher
   dev_url: https://github.com/Aquaveo/xmsmesher
 
