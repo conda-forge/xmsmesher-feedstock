@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "2.0.0" %}
 
 package:
   name: xmsmesher
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/Aquaveo/xmsmesher/archive/{{ version }}.tar.gz
-  sha256: 22f1cfc97b75d7323c91a6eea7a7b6b5e86d0d04e70f16097a67711ebf3e0f92
+  sha256: 1134792921dff4a8ca1727130dc17dc34b0d3907f65ff519825dad2a18cd1cc7
 
 build:
   number: 0
